@@ -1,0 +1,22 @@
+{
+  "name": "faker-fetch",
+  "version": "1.0.0",
+  "description": "Fake fetch calls",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "faker",
+    "fake",
+    "fetch",
+    "mock",
+    "xhr",
+    "ajax",
+    "emulate",
+    "simulate",
+    "route"
+  ],
+  "author": "José Varela",
+  "license": "ISC"
+}
