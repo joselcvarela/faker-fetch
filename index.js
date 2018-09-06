@@ -20,10 +20,9 @@ const matchRoute = ({ url, options }, routes) => {
     const matcher = new RegExp(_url, 'i')
     if (matcher.test(url)) {
       return Promise.resolve(buildResponse(_response))
-    } else {
-      return fetch(url, options)
     }
   }
+  return window.fetch(url, options)
 }
 
 const buildResponse = (options) => {
